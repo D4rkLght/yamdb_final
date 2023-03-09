@@ -12,7 +12,6 @@ from rest_framework.exceptions import MethodNotAllowed
 from rest_framework.filters import SearchFilter
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
-
 from reviews.models import Category, Genre, Review, Title
 
 from .filters import TitleFilter
@@ -83,7 +82,7 @@ class UserViewSet(viewsets.ModelViewSet):
         if request.method == 'GET':
             serializer = self.get_serializer(user)
             return Response(serializer.data, HTTPStatus.OK)
-        elif request.method == 'PATCH':
+        if request.method == 'PATCH':
             serializer = self.get_serializer(
                 user,
                 data=request.data,

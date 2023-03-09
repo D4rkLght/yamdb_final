@@ -2,7 +2,6 @@ import logging
 from csv import DictReader
 
 from django.core.management import BaseCommand
-
 from reviews.models import Genre
 
 logger = logging.getLogger(__name__)
