@@ -9,7 +9,7 @@ services:
     env_file:
       - ./.env
   web:
-    image: darkdace/api_yamdb.v1:latest
+    image: darkdace/yamdb_final:latest
     restart: always
     volumes:
      - static_value:/app/static/
