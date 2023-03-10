@@ -1,4 +1,3 @@
-# yamdb_final
 ![yamdb_workflow](https://github.com/D4rkLght/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 ### Стек технологий
 [![Python](https://img.shields.io/badge/-Python-464641?style=flat-square&logo=Python)](https://www.python.org/)
