@@ -48,6 +48,8 @@ docker-compose exec web python manage.py dumpdata > fixtures.json
 ```
 # Примеры запросов:
 http://158.160.18.241/redoc/ http://158.160.18.241/admin/
+логин secretadmin 
+пароль admin
 ## Над проектом работали:
 1. Разработчик [Анастасия Хоменко](https://github.com/k4omenkoanastasia) писала всю часть, касающуюся управления пользователями (Auth и Users): систему регистрации и аутентификации, права доступа, работу с JWT токеном, систему подтверждения через e-mail, и файл READMЕ<br>
 
